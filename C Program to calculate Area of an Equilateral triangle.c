@@ -5,7 +5,7 @@ int main()
   // Variable area to store calculated area, "temp"
   // variable to store the result of temporary calculation
   // and side represents the side of the triangle
-  float side, area, temp;
+  float side, temp;
 
   // Prompt user to input side of the Equilateral triangle
   printf("Enter the Side of the triangle: ");
