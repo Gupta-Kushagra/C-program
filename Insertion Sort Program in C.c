@@ -22,7 +22,9 @@ int main(){
       j=i-1;
       while((temp<number[j])&&(j>=0)){
          number[j+1]=number[j];
-         }
+         j=j-1;
+      }
+      number[j+1]=temp;
    }
 
    printf("Order of Sorted elements: ");
